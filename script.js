@@ -18,21 +18,20 @@ class Rectangle {
 
 	getArea()
 	{
-		result=this._width*this._height;
+		const result=this._width*this._height;
 		return result;
 	}
 }
 
 class Square extends Rectangle {
 	constructor(side){
-		super(width,height)
-		this._width=side;
-		this._height=side;
+		super(side,side)
+		
 	}
 
 	getPerimeter()
 	{
-		results=4*this._side;
+		const results=4*this._width;
 		return results
 	}
 	
